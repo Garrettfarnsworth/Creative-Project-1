@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Form</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<meta name="theme-color" content="#1e3799">
+	<meta property="og:url" content="http://www.garrettrfarnsworth.com">
+	<meta property="og:title" content="Sloth form">
+	<meta property="og:description" content="Check our survey to find out which sloth you are!">
+	<meta property="og:image" content="https://images.unsplash.com/photo-1576612026118-888273d58653?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="600">
+	<meta property="og:image:alt" content="A magestical sloth hanging from a tree branch.">
+	<meta property="og:type" content="article">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site:id" content="@garrettfarnsworth">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Caveat|Ruslan+Display|Sedgwick+Ave|Trade+Winds&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/styles.css">
+</head>
+
+	<body class="form">
+		<nav>
+			<ul>
+				<li> <a href="../">Home</a></li>
+				<li> <a href="../about/">About</a></li>
+				<li> <a>Form</a></li>
+				<li> <a href="#/">Artwork</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<section>
+				<div class="form-flex">
+				<img src="https://www.garrettrfarnsworth.com/images/SlothIcon.svg" class="svgicon" alt="A sloth icon">
+					<div>
+						<h4>Survey</h4>
+						<form action="">
+						<label for="name">Your full name:</label>
+						<input type="text" name="name" id="name">
+
+						<label for="email">Your email:</label>
+						<input type="email" name="email" id="email" required>
+
+						<label for="phone">Your phone number:</label>
+						<input type="tel" name="phone" id="phone">
+
+						<label for="birthdate">Your Birthdate:</label>
+						<input type="date" name="birthdate" id="birthdate">
+				
+						<p class="question">Which of the following would you guess are correct facts about sloths? (Check all that may apply)</p>
+				
+						<input type="checkbox" id="swimmer" name="facts" value="swimmer">
+						<label for="swimmer">Sloths are great swimmers</label>
+				
+						<input type="checkbox" id="hibiscus" name="facts" value="hibiscus">
+						<label for="hibiscus">Sloths love hibiscus leafs and are essentially choclate to them</label>
+				
+						<input type="checkbox" id="fall" name="facts" value="true">
+						<label for="fall">Sloths often accidently will mistake their own arms for a tree branch and fall</label>
+				
+						<input type="checkbox" id="nature-calls" name="facts" value="bathroom">
+						<label for="nature-calls">Sloths only use the restroom once every week</label>
+				
+						<input type="checkbox" id="danger" name="facts" value="danger">
+						<label for="danger">Using the restroom is very dangerous for sloths</label>
+
+						<p class="question">What do you think sloths feel like?</p>
+
+						<input type="radio" name="feel" id="fluffy" value="fluffy">
+						<label for="fluffy">Like a fluffy cloud</label>
+
+						<input type="radio" name="feel" id="rough" value="rough">
+						<label for="rough">Like an old rough haircomb</label>
+
+						<input type="radio" name="feel" id="sticky" value="sticky">
+						<label for="sticky">Sticky and kind of gross</label>
+
+						<input type="radio" name="feel" id="heaven" value="heaven">
+						<label for="heaven">Like heaven</label>
+
+						<label for="haiku">Compose a haiku about Sloths:</label>
+						<textarea name="haiku" id="haiku" cols="30" rows="5" placeholder="5/7/5 syllable count"></textarea>
+						
+						<input type="submit" value="Submit">
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="footericon">
+				<img src="../images/SlothIcon.svg" alt="Sloth Footer Icon">
+			</div>
+			<div class="footer-wrapper">
+				<p>Thanks for visiting and hang in there!</p>
+				<p>&copy; Garrett Farnsworth 2020</p>
+			</div>
+		</footer>
+	</body>
+</html>
